@@ -1,1 +1,1 @@
-Aca encontraremos codigo en C++, algunos trabajado con librerias externas
+Aca encontraremos codigo en C++ o Java, algunos trabajado con librerias externas
