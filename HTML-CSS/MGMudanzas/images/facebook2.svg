@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   inkscape:export-filename="/home/leandro/Trabajos/MARIO/images/facebook2.png"
+   inkscape:export-xdpi="40.384212"
+   inkscape:export-ydpi="40.384212"
+   sodipodi:docname="Documento nuevo 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="82.154379"
+     inkscape:cy="922.64427"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="555"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ececec"
+       id="path2985"
+       sodipodi:cx="130.71428"
+       sodipodi:cy="117.36218"
+       sodipodi:rx="27.857143"
+       sodipodi:ry="27.857143"
+       d="m 112.10389,138.09076 a 27.857143,27.857143 0 0 0 0.0885,0.0791 l 18.52192,-20.80767 z"
+       sodipodi:start="2.302402"
+       sodipodi:end="2.2981421"
+       inkscape:export-filename="/home/leandro/Trabajos/MARIO/images/facebook2.png"
+       inkscape:export-xdpi="48.828773"
+       inkscape:export-ydpi="48.828773" />
+    <g
+       id="g3763"
+       transform="matrix(0.92345739,0,0,0.92345739,11.981096,8.7937902)"
+       inkscape:export-filename="/home/leandro/Trabajos/MARIO/images/facebook2.png"
+       inkscape:export-xdpi="48.828773"
+       inkscape:export-ydpi="48.828773">
+      <path
+         sodipodi:nodetypes="czc"
+         inkscape:connector-curvature="0"
+         id="path2991"
+         d="m 125.62533,139.00363 c 0,0 -0.34799,-23.12128 -0.2411,-31.11083 0.1069,-7.989551 7.45799,-7.996066 14.51801,-7.70356"
+         style="fill:none;stroke:#000000;stroke-width:7.75899982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path2993"
+         d="m 113.7486,113.9845 26.22291,1e-5"
+         style="fill:none;stroke:#000000;stroke-width:7.75899982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ececec;stroke-width:2.19858599;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3769"
+       sodipodi:cx="50.17857"
+       sodipodi:cy="141.64789"
+       sodipodi:rx="25.535715"
+       sodipodi:ry="26.785715"
+       d="m 75.714285,141.64789 a 25.535715,26.785715 0 1 1 -51.07143,0 25.535715,26.785715 0 1 1 51.07143,0 z"
+       transform="matrix(1.2520052,0,0,1.2069116,67.890455,-53.594308)"
+       inkscape:export-filename="/home/leandro/Trabajos/MARIO/images/facebook2.png"
+       inkscape:export-xdpi="49.462994"
+       inkscape:export-ydpi="49.462994" />
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFFDE6;
+}
+
+div#contenidoprincipal {
+	width: 1006px;
+	height: 800px;
+	background-color: #FFFDE6;
+	position: absolute;
+	margin: -10px auto;
+	left: 0px;
+	 }
+
+div#cabezera {
+	width: 1006px;
+	height: 245px;
+	background-repeat:repeat-x;
+	background-image:url(images/fondo.jpg);
+	position: absolute;
+
+}
+
+div#logotipo {
+	width: 600px;
+	height: 245px;
+	background-color: #FFFDE6;
+	position:absolute;
+	left: 202px;
+
+}
+
+div#texto{
+	position: absolute;
+	left: 302px;
+	top: 245px;
+
+}
+	
+div#mimagenes {
+	position:absolute;
+	left: 4px;
+	top: 245px;
+}
+
+
+	
+div#poema {
+	position: absolute;
+	left: 805px;
+	top: 245px;
+}
+div#proyeccion {
+	position:absolute;
+	left: 11px;
+	top: 38px;
+	}
+div#proyeccion2 {
+	position:absolute;
+	left: 11px;
+	top: 190px;
+}
+	
+div#proyeccion3 {
+	position:absolute;
+	left: 11px;
+	top: 342px;
+	}
+
+div#piedepagina {
+    width: 1004px;
+	height: 20px;
+	background-color: #FFFDD6;
+	position: absolute;
+	top: 780px;
+	 }

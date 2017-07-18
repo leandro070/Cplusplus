@@ -1,0 +1,245 @@
+* {font-family: Designosaur;
+text-align: left;
+background-color: #6699CC;
+color: #242424;
+}
+
+a {background-color: transparent;}
+
+@font-face {
+ font-family: "Designosaur";
+ font-style: normal;
+ font-weight: normal;
+ src: local("?"), url("fonts/Designosaur-Regular.woff") format("woff"),
+ url("fonts/Designosaur-Regular.ttf") format("truetype");
+ }
+ @font-face {
+ font-family: "DesignosaurIT";
+ font-style: normal;
+ font-weight: normal;
+ src: local("?"), url("fonts/Designosaur-Italic.woff") format("woff"),
+ url("fonts/Designosaur-Italic.ttf") format("truetype");
+ }
+
+body {margin:0; padding:0;}
+
+.todo {width:920px; min-height:400px;   display: inline-block;}
+
+.menu {width:100%;
+height:70px;
+margin-bottom:20px;
+background-color:#333;
+float:left;
+/***** degrade fondo ****/
+background: -webkit-linear-gradient(#333, #222);
+background: -moz-linear-gradient(#333, #222);
+background: -o-linear-gradient(#333, #222);
+-moz-box-shadow: 2px 2px 3px #424242;
+-webkit-box-shadow: 2px 2px 3px #424242;
+box-shadow: 0px 2px 3px #424242;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111')";
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111');
+}
+.contenido {position:relative;
+  margin: 85px auto 20px auto;
+min-height:200px;
+max-width: 700px;
+background-color:#e0e0e0;
+border: 2px;
+border-color: #ffffff;
+border-radius: 6px 6px 6px 6px;
+-moz-border-radius: 6px 6px 6px 6px;
+-webkit-border-radius: 6px 6px 6px 6px;
+border: 1px solid #969196;
+border-bottom-width: 2px
+-moz-box-shadow: 2px 2px 3px #424242;
+-webkit-box-shadow: 2px 2px 3px #424242;
+box-shadow: -2px 2px 3px #424242;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111')";
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111');
+
+}
+
+.pie {width:100%;
+height:60px;
+float:center;
+background-color:#333;
+/***** degrade fondo ****/
+background: -webkit-linear-gradient(#333, #222);
+background: -moz-linear-gradient(#333, #222);
+background: -o-linear-gradient(#333, #222);
+vertical-align: bottom;
+}
+
+@media only screen and (max-device-width: 600px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (device-width: 600px), only screen and (max-width: 767px) {
+
+.todo {width:100%;}
+.contenido {width:90%;
+}
+}
+
+//movil
+@media only screen and (max-device-width: 500px) {
+.todo {width:100%;}
+.contenido {width:90%;
+}
+}
+
+#contenidointro {
+  position: relative;
+  font-size: 1em;
+  width: 92%;
+  margin: 3% 4% 3% 4% ;
+  background-color:transparent;}
+
+#titulo {
+  font-family: DesignosaurIT;
+position: relative;
+color: #447ff5;
+width: 100%;
+font-size: 2em;
+text-align:center;
+background-color: transparent;
+text-shadow: -1px -1px 0px #294099;
+}
+#logo {background-color: transparent;
+  margin: 10px 0 0 5% ;
+}
+#textomenu {
+  position: relative;
+  float: right;
+  top: 10px;
+  background-color: transparent;
+  color: #e0e0e0;
+  text-align: right;
+  font-size: 0.9em;
+  max-width: 70%;
+  height: 50px;
+    margin-right: 7px;
+  z-index: 10;
+
+}
+
+#mudanzas {
+position: relative;
+float: right;
+  background-color: transparent;
+  color: #e0e0e0;
+  padding: 4px;
+}
+
+#mudanzas:hover {
+  position: relative;
+  float: right;
+  background-color: #545454;
+  color: #e0e0e0;
+  padding: 4px;
+
+}
+#empresa {position: relative;
+  float: right;
+  background-color: transparent;
+  color: #e0e0e0;
+  padding: 4px;
+}
+#empresa:hover {position: relative;
+  float: right;
+  background-color: #545454;
+  color: #e0e0e0;
+  padding: 4px;
+
+}
+#transporte {position: relative;
+  float: right;
+  background-color: transparent;
+  color: #e0e0e0;
+  padding: 4px;
+}
+#transporte:hover {position: relative;
+  float: right;
+  background-color: #545454;
+  color: #e0e0e0;
+  padding: 4px;
+
+}#contacto {position: relative;
+  float: right;
+  background-color: transparent;
+  color: #e0e0e0;
+  padding: 4px;
+}
+#contacto:hover {position: relative;
+  float: right;
+  background-color: #545454;
+  color: #e0e0e0;
+  padding: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {background-color: transparent;}
+#imagenescont {
+  text-align: center;
+  background-color: transparent;
+
+}
+
+#lineatit {position: relative;
+        height: 2px;
+        width: 100%;
+        float: left;
+        background-color:#747474;}
+
+#contactotext {background-color: transparent;
+  font-size: 0.9em;
+  font-style: italic;
+  color: #5D5D5D;
+  text-align: center;
+
+}
+#seguro {
+  height: 95px;
+  min-height: 95px;
+  width: 95px;
+  min-width: 95px;
+  background-color: transparent;
+  margin: 5px 5px 5px 5px;
+
+  }
+#seguimiento {
+  background-color: transparent;
+  margin: 5px 5px 5px 5px;
+  height: 105px;
+  min-height: 105px;
+  width: 105px;
+  min-width: 105px;
+  }
+  #presupuesto {
+  background-color: transparent;
+  margin: 5px 5px 5px 5px;
+   height: 100px;
+  min-height: 100px;
+  width: 100px;
+  min-width: 100px;
+  }
+  #disponible {
+  background-color: transparent;
+  margin: 5px 5px 5px 5px;
+ height: 95px;
+  min-height: 95px;
+  width: 95px;
+  min-width: 95px;
+  }
+  #carteles {
+    text-align: center;
+
+    background-color: transparent;
+
+  }
+
+

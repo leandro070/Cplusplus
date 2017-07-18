@@ -1,0 +1,462 @@
+body {
+  background-image: url("images/36.gif");
+  font-family: Arial;
+}
+
+
+@font-face {
+ font-family: "Designosaur";
+ font-style: normal;
+ font-weight: normal;
+ src: local("?"), url("fonts/Designosaur-Regular.woff") format("woff"),
+ url("fonts/Designosaur-Regular.ttf") format("truetype");
+ }
+ @font-face {
+ font-family: "DesignosaurIT";
+ font-style: normal;
+ font-weight: normal;
+ src: local("?"), url("fonts/Designosaur-Italic.woff") format("woff"),
+ url("fonts/Designosaur-Italic.ttf") format("truetype");
+ }
+ 
+#contenedor {
+width: 870px;
+height: 450px;
+position: absolute;
+top: 50%;
+left:50%;
+margin-top: -225px;   /* height/2 = 500px / 2 */
+margin-left: -465px;  /* width/2 = 500px / 2 */
+}
+
+#fondonegro {
+  position: absolute;
+  width: 790px;
+  height: 450px;
+  top: 4px;
+  left: 83px;
+  background-color: black;
+  z-index: 1;
+  -webkit-opacity: 0.7;
+  opacity: 0.7;
+}
+#cajanegra {
+  position: absolute;
+  width: 150px;
+  height: 450px;
+  left: 80px;
+  background-color: black;
+  z-index: 1;
+}
+#cajafondo {
+  position: absolute;
+  width: 640px;
+  height: 450px;
+  left: 230px;
+  background-image: url("images/fondo.JPG");
+  z-index: 2;
+}
+#cajaempresa {
+  position: absolute;
+  width: 105px;
+  height: 25px;
+  top: 230px;
+  left: 45px;
+  background-color: rgb(2, 44, 51);
+  z-index: 3;
+  color: white;
+  font-size: 14px;
+  font-family: Designosaur, Arial;
+}
+#cajamudanza {
+  position: absolute;
+  width: 105px;
+  height: 25px;
+  top: 280px;
+  left: 45px;
+  background-color: rgb(2, 44, 51);
+  z-index: 3;
+  color: white;
+  font-size: 14px;
+  font-family: Designosaur, Arial;
+}
+#cajatransporte {
+  position: absolute;
+  width: 105px;
+  height: 25px;
+  top: 330px;
+  left: 45px;
+  background-color: rgb(2, 44, 51);
+  z-index: 3;
+  color: white;
+  font-size: 14px;
+  font-family: Designosaur, Arial;
+}
+#cajacontacto {
+  position: absolute;
+  width: 105px;
+  height: 25px;
+  top: 380px;
+  left: 45px;
+  background-color: rgb(2, 44, 51);
+  z-index: 3;
+  font-family: Designosaur, Arial;
+}
+#empresa {
+  position: absolute;
+  top: 4px;
+  left: 33px;
+  color: white;
+  font-size: 14px;
+}
+#mudanzas {
+  position: absolute;
+  top: 4px;
+  left: 26px;
+  color: white;
+  font-size: 14px;
+}
+#transportes {
+  position: absolute;
+  top: 4px;
+  left: 20px;
+  color: white;
+  font-size: 14px;
+  z-index: 4;
+}
+#contacto {
+  position: absolute;
+  top: 4px;
+  left: 33px;
+  color: white;
+  font-size: 14px;
+}
+#casa {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  top: 210px;
+  left: 10px;
+  z-index: 3;
+}
+#casa:hover {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  top: 210px;
+  left: 7px;
+  z-index: 3;
+}
+#camion2 {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  top: 273px;
+  left: 9px;
+  z-index: 3;
+}
+#camion2:hover {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  top: 273px;
+  left: 6px;
+  z-index: 3;
+}
+#camion1 {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  top: 325px;
+  left: 5px;
+  z-index: 3;
+}
+#camion1:hover {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  top: 325px;
+  left: 2px;
+  z-index: 3;
+}
+#telefono {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  top: 365px;
+  left: 15px;
+  z-index: 3;
+}
+#telefono:hover {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  top: 365px;
+  left: 12px;
+  z-index: 3;
+}
+#anuncios {
+  position: absolute;
+  top: 435px;
+  left: 15px;
+  z-index: 3;
+  font-size: 10px;
+}
+#facebook {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 58px;
+  top: 155px;
+  z-index: 7;
+  
+}
+
+#mg {
+  position: absolute;
+  width: 100px;
+  height: 69px;
+  top: 40px;
+  left: 25px;
+  background-image: url("images/mg.png");
+  z-index: 5;
+}
+#sub {
+  position: absolute;
+  width: 110px;
+  height: 69px;
+  top: 109px;
+  left: 25px;
+  z-index: 5;
+  color: white;
+  font-size: 10px;
+  font-family: Designosaur;
+}
+#titulo {
+  position: absolute;
+  font-family: DesignosaurIT, arial;
+  font-size: 30px;
+  color: white;
+  top: 20px;
+  left: 30px;
+  z-index: 5;
+}
+#titulosombra {
+  position: absolute;
+   font-family: DesignosaurIT, arial;
+  font-size: 30px;
+  color: #3F3F3F;
+  top: 22px;
+  left: 32px;
+  z-index: 5;
+}
+
+#lineatit {position: absolute;
+				height: 2px;
+				width: 600px;
+				top: 348px;
+				left: 25px;
+				z-index: 7;
+				background-color:#e6e6e6;}
+			
+			
+#contenidointro {
+  position: absolute;
+  font-family: Designosaur, arial;
+  font-size: 15px;
+  width: 420px;
+  top: 65px;
+  left: 30px;
+  z-index: 5;
+  
+
+
+}
+#boy {position: absolute;
+  top: 357px;
+  left: 25px;
+}
+#contenidocontacto {
+position: absolute;
+font-family: Designosaur, arial, helvetica;
+font-size: 14px;
+width: 450px;
+color: #e6e6e6;
+  top: 376px;
+  left: 110px;
+}
+
+#cartel24 {position: absolute;
+  top: 53px;
+  left: 460px;}
+  
+#cartelseguro {position: absolute;
+  top: 215px;
+  left: 40px;}
+#cartelseguimiento {position: absolute;
+  top: 195px;
+  left: 175px;}
+  
+#cartelpresupuesto {position: absolute;
+  top: 208px;
+  left: 350px;}
+  
+
+  
+
+/* --------------- MUDANZA ------------------- */
+
+
+#contenidotrabajamos {position: absolute;
+top: 60px;
+left: 450px;
+color: black;
+font-size: 16px;
+font-family: Designosaur, arial;
+}
+ 
+#trabajamos {position: absolute;
+top: 70px;
+left: 435px;
+color: white;
+font-family: Designosaur, arial;
+}
+
+
+#contactomud {position: absolute;
+font-family: Designosaur,arial, helvetica;
+font-size: 14px;
+width: 450px;
+  top: 270px;
+  left: 451px;
+  color: #e6e6e6;
+
+}
+
+#muebles {position: absolute;
+	top: 120px;
+left: 75px;
+
+}
+#presupuestoadomicilio {
+	position: absolute;
+font-family: DesignosaurIT, arial;
+font-size: 15px;
+width: 450px;
+  top: 294px;
+  left: 55px;
+  color: white;
+}
+
+#lineauno {position:absolute;
+ height: 2px;
+  width: 400px; 
+ top: 320px;
+  left: 20px; 
+  background-color:white;
+  }
+
+#lineados {position:absolute;
+ height: 2px;
+  width: 400px; 
+ top: 345px;
+  left: 20px; 
+  background-color:white;
+  }
+ 
+#serviciosadicionales {
+	position: absolute;
+font-size: 19px;
+width: 450px;
+  top: 325px;
+  left: 30px;
+  color: #FAEB74;
+  font-family: DesignosaurIT, arial;
+
+}
+#serviciosadicionalessombra {
+	position: absolute;
+font-size: 19px;
+width: 450px;
+  top: 326.5px;
+  left: 31.5px;
+  color: #8F8D65;
+  font-family: DesignosaurIT, arial;
+
+}
+
+#icono1 { position: absolute;
+  top: 355px;
+  left: 40px;
+  }
+  
+  #icono2 { position: absolute;
+  top: 355px;
+  left: 120px;
+  }
+  
+#icono3 { position: absolute;
+  top: 355px;
+  left: 200px;
+  }
+#icono1texto { position: absolute;
+font-size: 11px;
+  top: 409px;
+  left: 35px;
+  color: white;
+  font-family: Designosaur, arial;
+  }
+  
+  #icono2texto { position: absolute;
+font-size: 11px;  
+  top: 409px;
+  left: 119px;
+  color: white;
+  font-family: Designosaur, arial;
+  }
+  
+#icono3texto { position: absolute;
+font-family: sans-serif;
+font-size: 11px;
+  top: 409px;
+  left: 198px;
+  color: white;
+  font-family: Designosaur;
+  }
+/* --------------- TRANSPORTE ------------------- */
+
+#contenidotransporte {position: absolute;
+  font-size: 15px;
+  width: 500px;
+  top: 65px;
+  left: 10px;
+  z-index: 5;
+  font-family: Designosaur, arial;
+
+}
+#transporteimg {position: absolute;
+  top: 110px;
+  left: -10px;
+
+}
+#comotrabajamos {position: absolute;
+  top: 90px;
+  left: 453px;
+  font-family: Designosaur,arial;
+  
+}
+#comotrabajamoscont {position: absolute;
+  top: 125px;
+  left: 453px;
+  color: white;
+  font-size: 15px;
+  font-family: Designosaur, arial;
+}
+
+/* --------------- CONTACTO ------------------- */
+#contenidointro2 {position: absolute;
+  font-size: 14px;
+  top: 18px;
+  left: 35px;
+  font-family: Designosaur, arial;
+  }

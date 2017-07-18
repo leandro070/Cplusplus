@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html id="fondo"><head>
+   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+   <meta name="description" content="">
+   <meta name="author" content="Leandro" >
+    <meta name="copyright" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title></title>
+   <link rel="stylesheet" href="styles.css" type="text/css">
+   <link rel="icon" type="image/png" href="favicon.png" />
+
+  </head>
+  
+  <body lang="es-ar">
+  <div id="contenedor2">
+  <img src="logopeq.png">
+  <div id="inicio"><p><a href="inicio.html">INICIO</a></p></div>
+  <div id="galeria"><p><a href="galeria.html">GALERIA</a></p></div>
+  <div id="contactanos"><p><a href="contacto.html">CONTACTANOS</a></p></div> 
+  <div id="lineahorizontal1"></div>
+  <div id="galeriafotos">  
+     <script language="JavaScript1.1">
+
+    var specifyimage=new Array() //Your images
+
+    specifyimage[0]="images/galeria/528.jpg"
+
+    specifyimage[1]="images/galeria/529.jpg"
+
+    specifyimage[2]="images/galeria/530.jpg"
+
+    specifyimage[3]="images/galeria/531.jpg"
+
+    specifyimage[4]="images/galeria/532.jpg"
+
+    specifyimage[5]="images/galeria/533.jpg"
+
+    var delay=2000 //3 seconds
+
+
+    //Counter for array 
+
+    var count =1;
+
+
+    var cubeimage=new Array()
+
+    for (i=0;i<specifyimage.length;i++){
+
+    cubeimage[i]=new Image()
+
+    cubeimage[i].src=specifyimage[i]
+
+    }
+
+
+    function movecube(){
+
+    if (window.createPopup)
+
+    cube.filters[0].apply()
+
+    document.images.cube.src=cubeimage[count].src;
+
+    if (window.createPopup)
+
+    cube.filters[0].play()
+
+    count++;
+
+    if (count==cubeimage.length)
+
+    count=0;
+
+    setTimeout("movecube()",delay)
+
+    }
+
+
+    window.onload=new Function("setTimeout('movecube()',delay)")
+
+    </script><img src="boy4.gif" name="cube" border="0" style="filter:progid:DXImageTransform.Microsoft.Stretch(stretchStyle=&#39;PUSH&#39;)" /> 
+    </div>
+<div id="marcofotos"> <img src="images/marco.png"> </div>
+<div id="textogaleria">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut dapibus libero, non vestibulum purus. Duis auctor arcu sed lacus tincidunt, quis gravida libero dignissim. Vivamus pretium sem et erat porta hendrerit. </div> 
+
+
+ <div id="lineahorizontal3"></div>
+  <div id="licenciacc2" align="center"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Voz Artesana Web</span> por <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Leandro Gutierrez</span> se distribuye bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a><br> Productos e imagenes presentados con derechos reservados.</div>
+  
+  </div>
+
+
+
+</body></html>

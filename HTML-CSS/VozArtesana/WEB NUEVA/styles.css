@@ -1,0 +1,256 @@
+body {
+  font-family: Arial;
+  background-color: #F6F5E2;
+}
+
+a:link {text-decoration:none; color: black;} /* Link no visitado*/
+a:visited {text-decoration:none; color:black} /*Link visitado*/
+a:active {text-decoration:none; color:black;} /*Link activo*/
+a:hover {text-decoration:none; color:black;} /*Mause sobre el link*/
+
+#titulo1 {
+
+
+}
+
+
+#logoentrar {
+position: absolute;
+top: 50%;
+left:50%;
+margin-top: -180px;
+margin-left: -426px;
+}
+
+#contenedor {
+position: absolute;
+top: 50px;
+left:50%;
+margin-left: -400px;
+}
+@font-face {
+ font-family: "Viner Hand";
+ font-style: normal;
+ font-weight: normal;
+ src: local("?"), url("fonts/Viner Hand Itc.woff") format("woff"),
+ url("fonts/Viner Hand Itc.ttf") format("truetype");
+ }
+@font-face {
+ font-family: "GeosansLight";
+ font-style: normal;
+ font-weight: normal;
+ src: local("?"), url("fonts/GeosansLight.woff") format("woff"),
+ url("fonts/GeosansLight.ttf") format("truetype");
+ }
+#lineahorizontal1 {
+  position: absolute;
+  width:594px;
+  height: 1px;
+  top: 70px;
+  left: 250px;
+  background-color: #663300;
+}
+
+#inicio {
+position: absolute;
+top: 20px;
+left: 510px;
+font-size:19px;
+font-family: GeosansLight;
+}
+#inicio:hover {position: absolute;
+top: 20px;
+left: 510px;
+font-size:19px;
+font-family: GeosansLight;
+text-shadow: 5px 5px 5px #FF9900;
+
+
+}
+
+#galeria {
+position: absolute;
+top: 20px;
+left: 590px;
+font-size:19px;
+font-family: GeosansLight;
+}
+#galeria:hover {
+position: absolute;
+top: 20px;
+left: 590px;
+font-size:19px;
+font-family: GeosansLight;
+text-shadow: 5px 5px 5px #FF9900;
+
+}
+
+#contactanos {
+position: absolute;
+top: 20px;
+left: 690px;
+font-size:19px;
+font-family: GeosansLight;
+}
+#contactanos:hover {
+position: absolute;
+top: 20px;
+left: 690px;
+font-size:19px;
+font-family: GeosansLight;
+text-shadow: 5px 5px 5px #FF9900;
+
+}
+
+#foto123 {
+position: absolute;
+top: 150px;
+left: 520px;
+}
+
+#titulo1   {
+position: absolute;
+top: 150px;
+left: 30px;
+width: 500px;
+height: 200px;
+font-size: 15px;
+font-family: Viner Hand, Arial;
+color: #663300;
+}
+
+#comentario1 {
+position: absolute;
+top: 290px;
+left: 35px;
+width: 480px;
+height: 200px;
+font-size:16px;
+font-family: GeosansLight;
+}
+
+#titulo2   {
+position: absolute;
+top: 470px;
+left: 300px;
+width: 500px;
+height: 200px;
+font-size: 15px;
+font-family: Viner Hand, Arial;
+color: #663300;
+}
+
+#comentario2 {
+position: absolute;
+top: 620px;
+left: 305px;
+width: 480px;
+height: 200px;
+font-size:16px;
+font-family: GeosansLight;
+}
+
+#foto124   {
+position: absolute;
+top: 470px;
+}
+
+#lineahorizontal2 {
+  position: absolute;
+  width:800px;
+  height: 1px;
+  top: 850px;
+  left: 30px;
+  background-color: #663300;
+}
+
+#licenciacc {
+  position: absolute;
+  top: 865px;
+  left: 220px;
+  width: 400px;
+  font-size: 10px;
+  font-family: Arial;
+}
+
+
+
+/* ......... GALERIA DE FOTOS ................. */
+
+
+#galeriafotos {
+  position: absolute;
+  top: 204px;
+  left: 88px;
+  
+}
+#lineahorizontal3 {
+  position: absolute;
+  width:800px;
+  height: 1px;
+  top: 610px;
+  left: 30px;
+  background-color: #663300;
+}
+
+#licenciacc2 {
+  position: absolute;
+  top: 610px;
+  left: 220px;
+  width: 400px;
+  font-size: 10px;
+  font-family: Arial;
+}
+#contenedor2 {
+position: absolute;
+top: 50px;
+left:50%;
+margin-left: -400px;
+}
+
+#marcofotos {
+  position: absolute;
+  top: 115px;
+  left: 0px;
+}
+
+#textogaleria {
+position: absolute;
+top: 160px;
+left: 605px;
+width: 240px;
+height: 200px;
+font-size:16px;
+font-family: GeosansLight;}
+
+
+/* ......... C0NTACTO ................. */
+
+
+#titulocontacto {
+position: absolute;
+top: 100px;
+left: 500px;
+width: 400px;
+height: 200px;
+font-size: 15px;
+font-family: Viner Hand, Arial;
+color: #663300;}
+
+#textocontacto {
+position: absolute;
+top: 180px;
+left: 510px;
+width: 280px;
+height: 200px;
+font-size:17px;
+font-family: GeosansLight;}
+
+#formulariocontacto {
+position: absolute;
+top: 110px;
+left: 20px;
+font-size:17px;
+font-family: GeosansLight;
+
+}
