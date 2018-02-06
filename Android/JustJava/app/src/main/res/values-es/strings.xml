@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JustJava</string>
+    <string name="thank_you">Gracias!</string>
+    <string name="no_more_100">No puedes comprar más de 100 cafe</string>
+    <string name="more_one">Debes comprar al menos 1 café</string>
+</resources>

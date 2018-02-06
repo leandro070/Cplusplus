@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">JustJava</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="no_more_100">You can\'t buy more than 100 coffee</string>
+    <string name="more_one">You must buy at least 1 coffee</string>
+</resources>
